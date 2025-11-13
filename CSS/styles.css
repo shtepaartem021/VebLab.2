@@ -845,7 +845,10 @@ button[type="reset"]:hover {
     input, select, textarea, button {
         font-size: 0.9rem;
     }
-
+    .form-buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
     .social-icons a img {
         width: 30px;
         height: 30px;
@@ -874,6 +877,11 @@ button[type="reset"]:hover {
     .header-navigation ul {
         flex-direction: column; 
         gap: 0.3rem;
+    }
+
+    .form-buttons {
+        flex-direction: column;
+        gap: 0.6rem;
     }
     
     .header-navigation li {
